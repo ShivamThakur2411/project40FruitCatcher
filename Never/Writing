@@ -1,0 +1,20 @@
+Git Bash commands :
+
+
+
+Go to the file or Directory/repository
+
+ls or list all files
+
+put add "name of file in which added something"
+
+git commit -m "your choice of change you made"
+
+remote add name of folder'link'
+
+git push -u name of folder
+
+
+
+
+HO GAYA "DONE".......

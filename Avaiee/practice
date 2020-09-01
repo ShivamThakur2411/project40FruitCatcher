@@ -1,0 +1,116 @@
+WRITE-------
+
+var xyzRef = database.ref('xyzRef/position');
+xyzRef.on("value", (data)=>{
+	xyzRef.x = position.x;
+	xyzRef.y = position.y;
+});
+
+
+var abcRef = database.ref('abcRef/width');
+abcRef.on("value", (data)=>{
+	abcRef.width = width;
+})
+
+
+
+
+READ------------
+
+function writePQR(x,y){
+    database.ref('Variable..name../PQR').set({
+        x: PQR.x + x,
+        y: PQR.y + y
+    })
+}
+function readPQR(data){
+    PQR = data.val();
+    var.x = PQR.x;
+    var.y = PQR.y;
+}
+
+
+
+
+Update ...//(improve)
+updateABC(ABC){
+	database.ref('/').update({
+		nameABC: ABC
+	})
+}
+
+(BRING)
+update(ARGUEMENT){
+		var varIndex = "XYZ" + XYZCount;
+		database.ref(XYZIndex).set({
+		(ARGUEMENT)name: name(ARGUEMENT)
+		})
+	}
+
+
+
+
+
+	GITHUB ---> GITBASH FUNCTION...
+
+	* git clone (link)
+	jdkdk/..df................srt.........
+	.........................................
+	..................
+* TO make a master folder - git init
+* git add .
+* git -m commit "....."
+* git remote add folder(link)
+* git push -u (link)
+
+
+
+making a class=-----
+
+class ABC {
+	constructor(){
+	vr options = {
+
+	}
+	bodies.(...);
+	World.add(world, this.body);
+	}display(){
+	--------------
+	---------
+	---------
+	}
+}
+
+
+
+class XYZ {
+	constructor(){
+
+	}
+
+	function PQR(){
+
+	
+	function ABC(){
+
+	}
+}
+
+
+
+var firebase;
+
+function setup(){
+dataase = firebase.database();
+}
+
+
+var var(what to ) = database.ref('var/what to');
+    var(what to).on("value", read(What to), showError);
+
+    }
+
+
+    function showError(){
+    	console.log("show error");
+    }
