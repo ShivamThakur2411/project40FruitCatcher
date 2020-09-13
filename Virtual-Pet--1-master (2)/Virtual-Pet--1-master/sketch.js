@@ -4,7 +4,6 @@ var foodS, foodStock;
 var database;
 
 function preload(){
-
 	dogI = loadImage("images/Dog.png");
 	dogHappy = loadImage("images/happydog.png");
 }
@@ -49,6 +48,7 @@ function writeStock(x){
 		Food:x
 	})
 }
+
 function readStock(data){
 	foodS = data.val();
 }
